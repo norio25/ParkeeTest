@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ParkeeTest</string>
+    <string name="popular_movie">Popular Movie</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="favorite">Favorite</string>
+    <string name="description">Description</string>
+    <string name="review">Review</string>
+    <string name="favorite_still_empty">Favorite still empty!</string>
+    <string name="share_movie">Share Movie</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="sms">Sms</string>
+</resources>

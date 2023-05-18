@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@android:color/black"
+    android:layout_margin="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_name_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="drystyx"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_detail_review"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            tools:text="While I'm writing this, The Godfather is still beloved by people who love it simply because they are told they have to love it. It's written by a mobster with the sole intention of depicting the lead mobsters as demi gods. Every line and every scene in the movie and the book is meant to intimidate people into thinking the Mafia and really any mob, is a supernatural force. This is a movie glorifying control freaks, and most critics are control freaks, and most critics are either in the mob or think they can join the mob. The movie itself is dull and totally uninspiring, not to mention totally uninspired. For fifty years, the sheep have been cowing to the control freaks who tell them to love this movie that degrades them. There just isn't anything favorable about this movie. It owes its success to people who have interests in the movie or think they can get brownie points with such people. It's totally Hollywood in its depressing nature, and even in the seventies it was a formula film."
+            app:layout_constraintTop_toBottomOf="@id/tv_name_review"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
